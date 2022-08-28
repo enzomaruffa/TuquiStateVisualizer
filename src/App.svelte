@@ -37,7 +37,12 @@ export let selectedEvent: ServerEvent | undefined;
   .right-side {
     display: flex;
     flex: 1 1 auto;
-    margin-left: 0px;
-    padding: 16px 64px;
+    margin-left: 2rem;
+    padding: 1rem 4rem;
+    padding-left: 2rem;
+
+    border-left: 1px solid #ccc;
+
+    height: 100%;
   }
 </style>
