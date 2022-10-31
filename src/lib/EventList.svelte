@@ -22,7 +22,7 @@ import EventPreview from "./EventPreview.svelte";
 
 <style>
   :root {
-    height: 100%;
+    /* height: 100%; */
     display: flex;
     padding: 8px;
   }
@@ -31,7 +31,8 @@ import EventPreview from "./EventPreview.svelte";
     display: flex;
     flex-direction: column;
     align-items: start;
-    height: 100%;
+    overflow-y: auto; 
+    max-height: 600px;
   }
 
   .wrapper { 

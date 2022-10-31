@@ -30,9 +30,9 @@ export let selectedEvent: ServerEvent | undefined;
     width: 100vw;
   }
 
-  /* .left-side {
-    width: 20%;
-  } */
+  .left-side {
+    height: 100%;
+  }
 
   .right-side {
     display: flex;
